@@ -28,15 +28,16 @@ Significance inflation ("testament," "pivotal," "groundbreaking"). Promotional l
 
 ## Installation
 
-### Claude Code
+### Plugin marketplace (recommended — auto-updates)
 
-```bash
-claude install-skill github:AHorihuela/deslop
+```
+/plugin marketplace add AHorihuela/deslop
+/plugin install deslop@deslop
 ```
 
 ### Manual
 
-Copy `SKILL.md` into your Claude Code skills directory.
+Copy `SKILL.md` into `~/.claude/skills/deslop/SKILL.md`.
 
 ## Usage
 
