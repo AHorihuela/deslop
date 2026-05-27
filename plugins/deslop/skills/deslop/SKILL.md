@@ -1,6 +1,6 @@
 ---
 name: deslop
-version: 1.1.0
+version: 1.2.0
 description: |
   Rewrite AI-generated text to sound genuinely human. Combines voice calibration,
   pattern detection, and a self-audit loop. Works on blog posts, emails, docs,
@@ -112,7 +112,21 @@ Remove throat-clearing openers, emphasis crutches, and hollow intensifiers.
 - "It goes without saying" -> (then don't say it)
 - "Serves as a testament to" -> (state what it proves directly)
 
+**Casual throat-clearing** (the blog/LinkedIn register; delete and open with the actual point):
+- "Here's the thing..." / "Here's why that matters..."
+- "It turns out..."
+- "The truth is..."
+- "Can we talk about..."
+- "I'm going to be honest..." / "Let me be honest..."
+
+**Emphasis crutches** (they announce importance instead of showing it):
+- "Full stop." / "Period." -> (delete the appended word; the sentence already stands)
+- "Let that sink in." -> delete
+- "Make no mistake." -> delete
+
 **Hedge words to cut or replace:** significantly, incredibly, very, really, quite, extremely, absolutely, fundamentally, essentially, arguably, undeniably, remarkably
+
+**Filler adverbs** (casual crutches that add nothing): just, literally, honestly, actually, simply, genuinely. Cut unless the word carries real meaning.
 
 **Rule of thumb:** If deleting a word doesn't change the meaning, delete it.
 
@@ -147,7 +161,17 @@ AI text has structural fingerprints. Learn them.
 > Before: "## Performance\n\nSpeed matters.\n\nWhen users hit a slow page..."
 > After: "## Performance\n\nWhen users hit a slow page..."
 
+**Dramatic fragmentation:** Stacking fragments for effect instead of writing sentences. Connect them. A single short sentence for emphasis is fine (that's Rule 6); it's a run of clipped fragments that reads as AI drama.
+
+> Before: "It works. Every time. No config."
+> After: "It works every time, with no config."
+
+> Before: "Fast. And reliable. And cheap."
+> After: "It's fast, reliable, and cheap." (then check the rule of three; two might be enough)
+
 **Signposting:** "Let's dive in," "Here's what you need to know," "Let's explore," "Without further ado." Delete. Just start.
+
+**Meta-commentary:** Narrating the piece instead of writing it. "Let me walk you through," "In this section," "As we'll see," "But that's another post," "Plot twist," "Spoiler," "You already know this," "X is a feature, not a bug." Delete. The writing should do the work without describing itself.
 
 ---
 
@@ -255,6 +279,8 @@ Scan for these. If you find clusters, the text needs work.
 **Promotional language:** boasts, vibrant, rich (figurative), profound, nestled, in the heart of, renowned, breathtaking, stunning, must-visit, showcasing, commitment to, natural beauty
 
 **AI vocabulary:** delve, interplay, intricate/intricacies, tapestry (figurative), garner, foster, underscore, highlight (verb), enhance, leverage, landscape (abstract), align with, additionally, multifaceted
+
+**Business jargon** (the thought-leader register; replace with the plain word): navigate -> handle/address; unpack -> explain; lean into -> embrace; game-changer -> significant; double down -> commit; deep dive -> analysis; take a step back -> reconsider; moving forward -> next/from now on; circle back -> revisit; on the same page -> aligned
 
 **Superficial -ing phrases:** highlighting, underscoring, emphasizing, ensuring, reflecting, symbolizing, contributing to, cultivating, fostering, encompassing, showcasing — these tack fake depth onto sentences. Cut them or make them real clauses.
 

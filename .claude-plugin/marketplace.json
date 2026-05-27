@@ -5,14 +5,14 @@
   },
   "metadata": {
     "description": "Claude Code skill that rewrites AI-generated text to sound like a person wrote it",
-    "version": "1.1.0"
+    "version": "1.2.0"
   },
   "plugins": [
     {
       "name": "deslop",
       "source": "./plugins/deslop",
       "description": "Rewrite AI-generated text to sound genuinely human. Combines voice calibration, pattern detection, and a self-audit loop.",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "author": {
         "name": "Alberto Horihuela"
       },
