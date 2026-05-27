@@ -24,7 +24,11 @@ Seven steps, in order:
 
 ## What it catches
 
-Significance inflation ("testament," "pivotal," "groundbreaking"). Promotional language ("nestled," "vibrant," "breathtaking"). AI vocabulary ("delve," "interplay," "tapestry," "landscape"). Formulaic structures (rule of three, negative parallelisms, false ranges). Copula avoidance ("serves as" instead of "is"). Superficial -ing phrases ("highlighting," "underscoring," "showcasing"). Sycophantic artifacts ("Great question!", "I hope this helps!"). Em dash overuse. Bolded-header lists. Title case headings. Generic conclusions ("The future looks bright"). Throat-clearing ("One thing I wanted to flag," "The reason I ask").
+Two registers, really. The formal/promotional voice: significance inflation ("testament," "pivotal," "groundbreaking"), promotional language ("nestled," "vibrant," "breathtaking"), AI vocabulary ("delve," "interplay," "tapestry," "landscape"), copula avoidance ("serves as" instead of "is"), superficial -ing phrases ("highlighting," "underscoring," "showcasing"), generic conclusions ("The future looks bright").
+
+And the casual thought-leader voice: business jargon ("circle back," "double down," "lean into"), meta-commentary that narrates the piece ("Let me walk you through," "Plot twist"), dramatic fragmentation ("It works. Every time. No config."), emphasis crutches ("Let that sink in," "Make no mistake"), filler adverbs ("just," "literally," "honestly"), casual throat-clearing ("Here's the thing," "The truth is").
+
+Plus the patterns common to both: formulaic structures (rule of three, negative parallelisms, false ranges), sycophantic artifacts ("Great question!", "I hope this helps!"), em dash overuse, bolded-header lists, title case headings.
 
 ## Installation
 
