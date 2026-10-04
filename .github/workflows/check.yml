@@ -1,0 +1,28 @@
+name: Check
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Skill copies are identical
+        run: diff -u SKILL.md plugins/deslop/skills/deslop/SKILL.md
+      - name: Manifests are valid JSON
+        run: |
+          python3 -m json.tool .claude-plugin/marketplace.json > /dev/null
+          python3 -m json.tool plugins/deslop/.claude-plugin/plugin.json > /dev/null
+      - name: Versions match
+        run: |
+          skill=$(sed -n 's/^version: //p' SKILL.md)
+          for v in $(python3 -c 'import json; m=json.load(open(".claude-plugin/marketplace.json")); p=json.load(open("plugins/deslop/.claude-plugin/plugin.json")); print(m["metadata"]["version"], m["plugins"][0]["version"], p["version"])'); do
+            [ "$v" = "$skill" ] || { echo "Version mismatch: SKILL.md=$skill manifest=$v"; exit 1; }
+          done
