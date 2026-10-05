@@ -230,6 +230,20 @@ AI text has structural fingerprints. Learn them.
 
 **Meta-commentary:** Narrating the piece instead of writing it. "Let me walk you through," "In this section," "As we'll see," "But that's another post," "Plot twist," "Spoiler," "You already know this," "X is a feature, not a bug." Delete. The writing should do the work without describing itself.
 
+**Announcing the shape instead of answering:** an opener that describes the reply — how many parts it has, that the parts differ, that a distinction is coming — rather than giving the reply. "Two things, and they work differently." "There are three reasons." "This has a few moving parts." "It depends on two factors." "Here's the thing:" "A few things to note:"
+
+It reads as helpful because it orients the reader. It is not: it spends the first sentence — the one position that is read — on the table of contents, and pushes the answer to sentence two. The structure is visible from the content anyway.
+
+**Lead with the answer. If the count matters, the reader can see it.**
+
+> Before: "Two things, and they work differently. The page's labels appear in nine languages. Your product text is published in your own language and English."
+> After: "Your product text is published in the language you wrote it in and in English. The page's own labels appear in nine languages."
+
+> Before: "There are three reasons this fails."
+> After: "It fails when the token expires mid-request." (then the others)
+
+Two relatives of the same tic, both burying the lead in a preamble: **stating that you will answer** ("The short answer is," "To put it simply," "In essence") and **grading the question before answering it** ("That's a great question," "Fair question," "It's worth asking").
+
 ---
 
 ### Rule 3: Use active voice with real subjects
@@ -358,6 +372,8 @@ Scan for these. If you find clusters, the text needs work.
 
 **Business jargon** (the thought-leader register; replace with the plain word): navigate -> handle/address; unpack -> explain; lean into -> embrace; game-changer -> significant; double down -> commit; deep dive -> analysis; take a step back -> reconsider; moving forward / going forward -> next/from now on; circle back -> revisit; on the same page -> aligned
 
+**Structure announcements:** two things, three reasons, a few things, several factors, a couple of points, here's the thing, the short answer is, in essence, to put it simply, it depends on — when they OPEN a reply. Mid-paragraph they are usually fine; in first position they are the table of contents standing where the answer should be.
+
 **Superficial -ing phrases:** highlighting, underscoring, emphasizing, ensuring, reflecting, symbolizing, contributing to, cultivating, fostering, encompassing, showcasing — these tack fake depth onto sentences. Cut them or make them real clauses with a concrete consequence.
 
 > Before: "The launch adds file search, highlighting the team's commitment to better workflows."
@@ -408,12 +424,13 @@ Answer each check pass or fail. If any check fails, fix the draft and run the fa
 9. Is interpretive metadiscourse gone, with facts carrying the emphasis instead?
 10. Does every generic sentence pass the portability test, or has it been cut or flagged?
 11. Does the piece end on a concrete point, takeaway, or next action, with no kicker or recap?
+12. Read sentence one alone: does it carry information, or only announce that information is coming? If it announces, delete it and promote sentence two.
 
 **Form**
-12. Are em dashes within limits (none in short copy, one or two in long pieces)?
-13. Is formatting slop gone: emoji headings, decorative bold, bullets that should be prose, headers over two-sentence sections?
-14. Does the rhythm vary, with no run of same-shaped sentences or paragraphs?
-15. Would it sound natural read aloud to a sharp colleague?
+13. Are em dashes within limits (none in short copy, one or two in long pieces)?
+14. Is formatting slop gone: emoji headings, decorative bold, bullets that should be prose, headers over two-sentence sections?
+15. Does the rhythm vary, with no run of same-shaped sentences or paragraphs?
+16. Would it sound natural read aloud to a sharp colleague?
 
 ---
 
