@@ -15,14 +15,17 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Skill copies are identical
-        run: diff -u SKILL.md plugins/deslop/skills/deslop/SKILL.md
+        run: |
+          diff -u SKILL.md plugins/deslop/skills/deslop/SKILL.md
+          diff -ru references plugins/deslop/skills/deslop/references
       - name: Manifests are valid JSON
         run: |
           python3 -m json.tool .claude-plugin/marketplace.json > /dev/null
           python3 -m json.tool plugins/deslop/.claude-plugin/plugin.json > /dev/null
       - name: Versions match
         run: |
-          skill=$(sed -n 's/^version: //p' SKILL.md)
+          skill=$(sed -n 's/^  version: "\(.*\)"/\1/p' SKILL.md)
+          [ -n "$skill" ] || { echo "Missing metadata.version in SKILL.md"; exit 1; }
           for v in $(python3 -c 'import json; m=json.load(open(".claude-plugin/marketplace.json")); p=json.load(open("plugins/deslop/.claude-plugin/plugin.json")); print(m["metadata"]["version"], m["plugins"][0]["version"], p["version"])'); do
             [ "$v" = "$skill" ] || { echo "Version mismatch: SKILL.md=$skill manifest=$v"; exit 1; }
           done
