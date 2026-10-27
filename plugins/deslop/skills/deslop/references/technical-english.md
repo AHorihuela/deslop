@@ -38,4 +38,3 @@ An approved STE word has restrictions on meaning and grammatical use; technical 
 Official reference: [Issue 9 PDF](https://www.asd-ste100.org/assets/files/ASD-STE100_ISSUE9.pdf). The full PDF returned an access error during this update; the official overview, current FAQ, and indexed official rule excerpts were available. This file is a short application profile, not a reproduction or full audit of the standard.
 
 Do not imply ASD endorsement or certification. Do not add a compliance disclaimer to every ordinary rewrite; mention the limitation only when the user requests an actual compliance judgment.
-

@@ -29,4 +29,3 @@ Do not turn these sentence limits into an answer-length limit or stack unnecessa
 ## Product or organization copy
 
 Apply the active product or brand guide in its own scope. PassportCraft's customer-copy guidance uses no dash asides and a different sentence-length preference; do not replace it with the message-to-Alberto profile. Read the actual local guide when working on that product. This skill does not authorize changing product facts, legal wording, approved claims, or translations.
-
